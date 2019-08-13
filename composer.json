@@ -41,5 +41,8 @@
         "process-timeout": 600
     },
     "prefer-stable": true,
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "scripts": {
+        "post-install-cmd": "echo 'Composer scripts are running.'"
+    }
 }
